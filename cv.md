@@ -15,7 +15,7 @@ My goal is to become a __Front-End Developer__ through RSSchool and then apply a
 + I’m ready to work hard and spend enough time on training
 + I improve my English constantly. Now I am on stage B2 (some tests say that even C1). My current part-time job is based on writing in English
 
-### Programmimg skills and tiny achievements:
+### Programming skills and tiny achievements:
 + HTML CSS Basics
 + Familiar with Git
 + Able to write primitive JS code
@@ -29,5 +29,7 @@ I learned programming by dint of platforms (*codecademy, htmlacademy, geekbrains
 ## Education
 
 2012-2016
+
 **Belarusian State University**
+
 *School of Business and Management of Tecnology, Logistics*
