@@ -3,7 +3,7 @@
 ### Contacts:
 *cell phone: +375 (25) 521-66-68 life* 
 
-*email: anvolkravt@ya.ru*
+*email: [anvolkravt@ya.ru](anvolkravt@ya.ru)*
 
 ## Objective
 My goal is to become a __Front-End Developer__ through RSSchool and then apply accumulated knowledge and experience. I want to change career direction and break into IT. 
@@ -24,11 +24,10 @@ My goal is to become a __Front-End Developer__ through RSSchool and then apply a
 
 I learned programming by dint of platforms (*codecademy, htmlacademy, geekbrains, sololearn, codewars*), books (learn.javascript.ru, etc.) and YouTube channels.
 
-There is a code I wrote: https://code.sololearn.com/W08mIgG3kfBn/#js
+*There is a code I wrote:* [https://code.sololearn.com/W08mIgG3kfBn/#js](https://code.sololearn.com/W08mIgG3kfBn/#js)
 
 ## Education
 
-##### Belarusian State University
-###### School of Business and Management of Tecnology
-*Logistics*
-**2012-2016**
+2012-2016
+**Belarusian State University**
+*School of Business and Management of Tecnology, Logistics*
