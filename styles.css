@@ -3,53 +3,7 @@ body {
   margin: 0 auto;
 }
 
-.photo {
-  grid-area: photo;
-}
-
-.header {
-  grid-area: header;
-  color: hsl(43, 72%, 95%);
-  padding: 40px 0 0 40px;
-  font-size: 1.2em;
-}
-
-.contacts {
-  grid-area: contacts;
-  padding: 20px 30px;
-  font-size: 1.05em;
-}
-
-.objective {
-  grid-area: objective;
-  padding: 20px 30px;
-  font-size: 1.05em;
-  text-align: justify;
-}
-
-.education {
-  grid-area: education;
-  padding: 20px 30px;
-  font-size: 1.05em;
-}
-
-.skills {
-  grid-area: skills;
-  font-size: 1.05em;
-  text-align: justify;
-  padding: 20px 30px;
-}
-
-.experience {
-  grid-area: experience;
-  font-size: 1.05em;
-  text-align: justify;
-  padding: 20px 30px;
-}
-
-
 .conteiner {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 240px 700px;
   grid-template-rows:  240px repeat(4 auto);
@@ -61,31 +15,73 @@ body {
     "contacts education";
 }
 
-.contacts {
-  background: hsl(318, 10%, 62%);
+.photo {
+  grid-area: photo;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  padding: 40px 0 0 60px;
+  font-size: 1.2em;
+  color: hsl(43, 72%, 95%);
 }
 
 .photo,
 .header {
   background: hsl(309, 49%, 17%); 
+  border-bottom: 3px solid hsl(310, 36%, 10%);
 }
 
-.photo {
-  box-sizing: border-box;
-  padding: 10px;
+.avatar {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  border: 7px double hsl(310, 36%, 10%);
+}
+
+.contacts {
+  grid-area: contacts;
+  padding: 100px 0 30px 40px;
+  font-size: 1.05em;
+  background: hsl(318, 10%, 62%);
+  border-right: 2px solid hsl(310, 36%, 10%);
+}
+
+.contacts-rect {
+  position: relative;
+  top: -220px;
+  left: -20px;
+  width: 235px;
+  height: 250px;
+  background: hsla(309, 49%, 17%, 0.3); 
+}
+
+.objective {
+  grid-area: objective;
+}
+
+.education {
+  grid-area: education;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.experience {
+  grid-area: experience;
 }
 
 .objective,
 .skills,
 .experience,
 .education {
+  padding: 10px 30px;
+  font-size: 1.05em;
+  text-align: justify;
   background: hsl(43, 72%, 95%);
-}
-
-.avatar {
-  position: relative;
-  left: 50px;
-  top: 30px;
 }
 
 p, 
@@ -103,4 +99,8 @@ a {
 
 .bold {
   font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }
