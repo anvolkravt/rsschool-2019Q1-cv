@@ -1,0 +1,106 @@
+body {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: 240px 700px;
+  grid-template-rows:  240px repeat(4 auto);
+  grid-template-areas: 
+    "photo header"
+    "contacts objective"
+    "contacts skills"
+    "contacts experience"
+    "contacts education";
+}
+
+.photo {
+  grid-area: photo;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  padding: 40px 0 0 60px;
+  font-size: 1.2em;
+  color: hsl(43, 72%, 95%);
+}
+
+.photo,
+.header {
+  background: hsl(309, 49%, 17%); 
+  border-bottom: 3px solid hsl(310, 36%, 10%);
+}
+
+.avatar {
+  position: relative;
+  top: 30px;
+  left: 50px;
+  border: 7px double hsl(310, 36%, 10%);
+}
+
+.contacts {
+  grid-area: contacts;
+  padding: 100px 0 30px 40px;
+  font-size: 1.05em;
+  background: hsl(318, 10%, 62%);
+  border-right: 2px solid hsl(310, 36%, 10%);
+}
+
+.contacts-rect {
+  position: relative;
+  top: -220px;
+  left: -20px;
+  width: 235px;
+  height: 250px;
+  background: hsla(309, 49%, 17%, 0.3); 
+}
+
+.objective {
+  grid-area: objective;
+}
+
+.education {
+  grid-area: education;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.experience {
+  grid-area: experience;
+}
+
+.objective,
+.skills,
+.experience,
+.education {
+  padding: 10px 30px;
+  font-size: 1.05em;
+  text-align: justify;
+  background: hsl(43, 72%, 95%);
+}
+
+p, 
+li {
+  line-height: 1.5em;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+a {
+  color: hsl(309, 49%, 17%); 
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
