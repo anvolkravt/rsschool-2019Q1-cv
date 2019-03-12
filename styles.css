@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+
+  font-family: "Signika", sans-serif;
+  text-align: justify;
+}
+
+/*             HEADER             */
+
+.header {
+  background: hsl(309, 49%, 17%);
+  border-bottom: 3px solid hsl(310, 36%, 10%);
+}
+
+.header-container {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0 0 30px;
+
+  font-size: 1.2em;
+  color: hsl(43, 72%, 95%);
+}
+
+.avatar {
+  position: relative;
+  top: 25px;
+  left: 15px;
+  z-index: 5;
+
+  border: 7px double hsl(310, 36%, 10%);
+}
+
+.avatar:hover {
+  transform: scale(1.4);
+}
+
+.header-text {
+  margin: 30px 50px;
+}
+
+/*             MAIN             */
+
+.main-container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.left-colomn
+.right-colomn {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-colomn {
+  position: relative;
+
+  height: inherit;
+}
+
+.left-colomn:before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  z-index: 1;
+
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+
+  background: linear-gradient(to left, hsl(318, 10%, 62%), white);
+}
+
+.right-colomn {
+  position: relative;
+}
+
+.right-colomn:after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  bottom: 0;
+  z-index: 1;
+
+  display: inline-block;
+  width: 50px;
+  height: 100%;
+
+  background: linear-gradient(to right, rgb(255, 226, 200), white);
+}
+
+.contacts {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 210px;
+  height: 100%;
+  padding: 100px 0 0 40px;
+
+  font-size: 1.05em;
+
+  background: hsl(318, 10%, 62%);
+  border-right: 2px solid hsl(310, 36%, 10%);
+}
+
+.contacts-text {
+  position: relative;
+  z-index: 6;
+}
+
+.contacts p {
+  font-weight: bold;
+}
+
+.contacts-rect {
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  z-index: 2;
+
+  width: 210px;
+  height: 250px;
+
+  background: hsla(309, 49%, 17%, 0.3);
+}
+
+.objective,
+.skills,
+.experience,
+.education {
+  padding: 10px 10px 10px 30px;
+
+  font-size: 1.05em;
+
+  background: rgb(255, 226, 200);
+}
+
+.objective {
+  padding-top: 40px;
+}
+
+p,
+li {
+  line-height: 1.5em;
+}
+
+h2 {
+  margin-top: 0;
+
+  text-decoration: underline;
+}
+
+a {
+  color: hsl(309, 49%, 17%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(43, 72%, 95%);
+}
+
+.right-colomn section:not(:first-child):before {
+  content: "";
+  position: relative;
+  bottom: 15px;
+
+  display: block;
+  height: 45px;
+
+  background-image: url("http://pluspng.com/img-png/decorative-lines-clipart-clipart-collection-fancy-lines-go-370.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*             FOOTER             */
+
+.footer {
+  padding: 20px;
+
+  background: hsl(309, 49%, 17%);
+  border-top: 3px solid hsl(310, 36%, 10%);
+}
+
+.footer-container {
+  box-sizing: border-box;
+  width: 900px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+
+  font-size: 1.8em;
+  text-align: center;
+  color: hsl(43, 72%, 95%);
+  letter-spacing: 0.05em;
+}
+
+@keyframes loadingFromFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  animation: 1.5s linear loadingFromFade;
+}
